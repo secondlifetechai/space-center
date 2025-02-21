@@ -16,6 +16,14 @@ const Header = () => {
   const usePathName = usePathname();
 
   useEffect(() => {
+    // Sticky Navbar
+    const handleStickyNavbar = () => {
+      if (window.scrollY >= 80) {
+        setSticky(true);
+      } else {
+        setSticky(false);
+      }
+    };
     window.addEventListener("scroll", handleStickyNavbar);
   });
 
@@ -27,15 +35,6 @@ const Header = () => {
   // Navbar toggle
   const navbarToggleHandler = () => {
     setNavbarOpen(!navbarOpen);
-  };
-
-  // Sticky Navbar
-  const handleStickyNavbar = () => {
-    if (window.scrollY >= 80) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
   };
 
   // submenu handler
