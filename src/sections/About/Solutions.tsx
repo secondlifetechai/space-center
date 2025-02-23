@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Solutions = () => {
   return (
-    <section className="py-16 md:py-20 lg:py-28">
+    <section className="py-16 md:py-20 lg:py-28" id="solutions">
       <div className="container">
         <div className="-mx-4 flex flex-wrap items-center">
           <div className="w-full px-4 lg:w-1/2">
@@ -11,13 +11,13 @@ const Solutions = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/images/about/ab1.jpg"
                 alt="about image"
                 fill
                 className="drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
+                src="/images/about/ab1.jpg"
                 alt="about image"
                 fill
                 className="drop-shadow-three hidden dark:block dark:drop-shadow-none"
@@ -28,26 +28,26 @@ const Solutions = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Code smarter and rank higher
+                  Your Health, Perfectly Managed
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Leverage SEO features in your SaaS development journey. Build your coding website with SEO-Optimized tools and frameworks.
+                  Take control of your health with Space Center! Our AI-powered assistant is here to make managing your well-being simple, smart, and hassle-free.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Streamline SEO implementation
+                  Track Your Symptoms, Instantly
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Elevate your coding website with our SaaS solution.Enhance your coding website with Built-in SEO functionality
+                  Easily log your symptoms every day. Our system tracks everything, so you’ll always know what’s happening with your health. Accurate data means smarter advice and better care.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Empower your development process
+                  Smart AI Recommendations
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Integrate powerful SEO capabilities into your SaaS platform.Seamlessly integrate SEO into your SaaS website
+                  Wondering what to do next? Space Center's AI engine gives you personalized recommendations based on your health profile and symptoms. It's like having a health expert in your pocket, guiding you every step of the way.
                 </p>
               </div>
             </div>

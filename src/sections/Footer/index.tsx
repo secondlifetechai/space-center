@@ -15,14 +15,14 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link href="/" className="mb-8 inline-block">
                   <Image
-                    src="/images/logo/logo-2.svg"
+                    src="/images/logo/logo.png"
                     alt="logo"
                     className="w-full dark:hidden"
                     width={140}
                     height={30}
                   />
                   <Image
-                    src="/images/logo/logo.svg"
+                    src="/images/logo/logo.png"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}
@@ -30,8 +30,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="dark:text-body-color-dark mb-9 text-base leading-relaxed text-body-color">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Your health matters, and managing it should be simple. Space Center is here to help you stay on top of everything—whether it's tracking your symptoms, managing your medication, or getting personalized wellness advice. 
                 </p>
                 <div className="flex items-center">
                   <a
@@ -102,18 +101,18 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/blogs"
+                      href="/#features"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Blog
+                      Features
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/pricing"
+                      href="/#about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Pricing
+                      About Us
                     </a>
                   </li>
                 </ul>
@@ -123,31 +122,23 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Forums
+                  Account
                 </h2>
                 <ul>
                   <li>
                     <a
-                      href="/"
+                      href="/auth/signin"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Collob
+                      Sign In
                     </a>
                   </li>
                   <li>
                     <a
-                      href="/"
+                      href="/auth/signup"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
-                      Design
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      WebCo
+                      Sign Up
                     </a>
                   </li>
                 </ul>
@@ -162,7 +153,7 @@ const Footer = () => {
                 <ul>
                   <li>
                     <a
-                      href="/contact"
+                      href="/#contact"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       Open a Ticket
@@ -170,15 +161,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a
-                      href="/"
-                      className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
-                    >
-                      Terms of Use
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/about"
+                      href="/#about"
                       className="dark:text-body-color-dark mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:hover:text-primary"
                     >
                       About
@@ -193,7 +176,7 @@ const Footer = () => {
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
               Crafted with joy and {" "}
-              <a href="https://nextjstemplates.com" rel="nofollow noopener">
+              <a href="#" rel="nofollow noopener">
               passion @ 2024
               </a>
             </p>

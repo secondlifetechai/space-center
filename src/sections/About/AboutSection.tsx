@@ -24,8 +24,8 @@ const AboutSection = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Streamlined SEO Marketing and Website Design Solutions"
-                paragraph="Enhance your online visibility and unlock success with our innovative platform. Experience the power of streamlined SEO marketing and website design solutions to propel your online presence forward."
+                title="Why Use Space Center?"
+                paragraph="Stay ahead of the game with wellness tips delivered straight to you. From boosting your energy to improving your mental well-being, Space Center gives you actionable advice to maintain a balanced, healthy life."
                 mb="44px"
               />
 
@@ -35,15 +35,15 @@ const AboutSection = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium options" />
-                    <List text="Extensive Documentation" />
-                    <List text="Use for lifetime" />
+                    <List text="AI-Powered Insights: Smart, personalized health recommendations based on real data." />
+                    <List text="Comprehensive Health Management: Track symptoms, manage medications, and get wellness tips—all in one app." />
+                    <List text="Security You Can Trust: Your health data is private, secure, and protected." />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Assistance Support" />
-                    <List text="User-Friendly Tools" />
-                    <List text="Access quality" />
+                    <List text="Easy to Use: Intuitive design makes managing your health effortless." />
+                    <List text="Always Evolving: We continually update Space Center to provide you with the best, most accurate health insights." />
+                    <List text="Smart Guidance: Get tips on managing symptoms, improving wellness, and optimizing your daily habits." />
                   </div>
                 </div>
               </div>
@@ -55,13 +55,13 @@ const AboutSection = () => {
                 data-wow-delay=".2s"
               >
                 <Image
-                  src="/images/about/about-image.svg"
+                  src="/images/about/ab2.jpg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto max-w-full dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
+                  src="/images/about/ab2.jpg"
                   alt="about-image"
                   fill
                   className="drop-shadow-three mx-auto hidden max-w-full dark:block dark:drop-shadow-none lg:mr-0"

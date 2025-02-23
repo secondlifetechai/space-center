@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Clear and Budget-Friendly Pricing"
-          paragraph="Our pricing model is straightforward and budget-conscious. While there are numerous variations of Lorem Ipsum passages, most have undergone some form of alteration."
+          paragraph="Our pricing model is straightforward and budget-conscious."
           center
           width="665px"
         />
@@ -62,43 +62,45 @@ const Pricing = () => {
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <PricingBox
-            packageName="Lite"
-            price={isMonthly ? "50" : "150"}
+            packageName="Starter"
+            price={isMonthly ? "19" : "199"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Ideal for individuals who need basic health tracking."
           >
-            <OfferList text="Intuitive User Interface" status="active" />
-            <OfferList text="Real-Time Analytics" status="active" />
-            <OfferList text="Secure Hosting" status="active" />
-            <OfferList text="24/7 Customer Support" status="inactive" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Symptom Tracking" status="active" />
+            <OfferList text="Basic Health Insights" status="active" />
+            <OfferList text="Medication Reminders" status="active" />
+            <OfferList text="AI Health Recommendations" status="inactive" />
+            <OfferList text="Priority Support" status="inactive" />
+            <OfferList text="Advanced Analytics" status="inactive" />
           </PricingBox>
+
           <PricingBox
-            packageName="Basic"
-            price={isMonthly ? "499" : "999"}
+            packageName="Pro"
+            price={isMonthly ? "49" : "499"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Perfect for those looking for a comprehensive health assistant."
           >
-            <OfferList text="Intuitive User Interface" status="active" />
-            <OfferList text="Real-Time Analytics" status="active" />
-            <OfferList text="Secure Hosting" status="active" />
-            <OfferList text="24/7 Customer Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
+            <OfferList text="Symptom Tracking" status="active" />
+            <OfferList text="Advanced Health Insights" status="active" />
+            <OfferList text="Medication Reminders" status="active" />
+            <OfferList text="AI Health Recommendations" status="active" />
+            <OfferList text="Priority Support" status="active" />
+            <OfferList text="Advanced Analytics" status="inactive" />
           </PricingBox>
+
           <PricingBox
-            packageName="Plus"
-            price={isMonthly ? "789" : "1799"}
+            packageName="Ultimate"
+            price={isMonthly ? "99" : "999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="For users who want the most powerful health monitoring tools."
           >
-            <OfferList text="Intuitive User Interface" status="active" />
-            <OfferList text="Real-Time Analytics" status="active" />
-            <OfferList text="Secure Hosting" status="active" />
-            <OfferList text="24/7 Customer Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
+            <OfferList text="Symptom Tracking" status="active" />
+            <OfferList text="Advanced Health Insights" status="active" />
+            <OfferList text="Medication Reminders" status="active" />
+            <OfferList text="AI Health Recommendations" status="active" />
+            <OfferList text="Priority Support" status="active" />
+            <OfferList text="Advanced Analytics" status="active" />
           </PricingBox>
         </div>
       </div>

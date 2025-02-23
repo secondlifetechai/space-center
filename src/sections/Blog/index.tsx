@@ -11,7 +11,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="Our Latest Blogs"
-          paragraph="Explore the latest insights, tips, and trends in our curated collection of blog posts. Dive into a world of valuable information to stay informed and inspired on various topics."
+          paragraph="Explore the latest insights, tips, and trends in our curated collection of blog posts. Dive into a world of valuable information to stay informed and inspired on various health topics."
           center
         />
 

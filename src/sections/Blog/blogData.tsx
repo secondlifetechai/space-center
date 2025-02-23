@@ -3,44 +3,44 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "The best UI components for modern websites",
+    title: "The Power of AI in Personalized Healthcare",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-01.jpg",
+      "Discover how AI is revolutionizing healthcare by providing personalized insights, symptom tracking, and tailored recommendations to improve your well-being.",
+    image: "/images/blog/b1.jpg",
     author: {
       name: "Suzi Jenk",
       image: "/images/blog/author-01.png",
       designation: "Content Writer",
     },
-    tags: ["design"],
+    tags: ["ai"],
     publishDate: "19 Feb 2024",
   },
   {
     id: 2,
-    title: "11 simple ways to enhance your web coding skills",
+    title: "5 Simple Steps to Improve Your Daily Wellness",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-02.jpg",
+      "Small changes can make a big impact on your health! From proper hydration to better sleep habits, explore five simple yet powerful steps to enhance your overall well-being.",
+    image: "/images/blog/b2.jpg",
     author: {
       name: "Suzi Jenk",
       image: "/images/blog/author-01.png",
       designation: "Content Writer",
     },
-    tags: ["Website"],
+    tags: ["fitness"],
     publishDate: "01 Feb 2024",
   },
   {
     id: 3,
-    title: "17 Tips to swiftly enhance your SEO keyword strategy",
+    title: "How Medication Management Can Save Lives",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
-    image: "/images/blog/blog-03.jpg",
+      "Missed medications can lead to serious health risks. Learn why effective medication tracking is crucial and how Space Center's smart reminders ensure you never miss a dose.",
+    image: "/images/blog/b3.jpg",
     author: {
       name: "Suzi Jenk",
       image: "/images/blog/author-01.png",
       designation: "Content Writer",
     },
-    tags: ["seo"],
+    tags: ["Health"],
     publishDate: "28 Jan 2024",
   },
 ];

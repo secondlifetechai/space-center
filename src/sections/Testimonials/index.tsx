@@ -5,28 +5,28 @@ import SectionTitle from "@/components/marketing/SectionTitle";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Sertan Dani",
-    designation: "Designer at Gumroad",
+    name: "Sam Johnson",
+    designation: "Wellness Coach",
     content:
-      "The platform's intuitive design, cleanliness, and minimal distractions are unparalleled. If you're building a community, look no further.",
+      "Space Center has completely transformed how I manage my health. The AI recommendations and symptom tracking help me stay on top of my wellness effortlessly!",
     image: "/images/testimonials/team-1.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Fera Lopus",
-    designation: "Founder of loom",
+    name: "James Carter",
+    designation: "Software Engineer",
     content:
-      "The platform's intuitive design, cleanliness, and minimal distractions are unparalleled. If you're building a community, look no further",
+      "I love how easy it is to track my medications and receive timely reminders. The health insights are incredibly useful and help me make better lifestyle choices.",
     image: "/images/testimonials/team-2.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Zahe Conteq",
-    designation: "Developer at Webflow",
+    name: "Emily Rodriguez",
+    designation: "Fitness Trainer",
     content:
-      "The platform's intuitive design, cleanliness, and minimal distractions are unparalleled. If you're building a community, look no further",
+      "This app is a game-changer! The AI-powered health insights and wellness tips have helped me improve my daily routine and overall well-being.",
     image: "/images/testimonials/team-3.png",
     star: 5,
   },
@@ -34,7 +34,7 @@ const testimonialData: Testimonial[] = [
 
 const Testimonials = () => {
   return (
-    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
+    <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28" id="testimonials">
       <div className="container">
         <SectionTitle
           title="Testimonials from Our Community"
