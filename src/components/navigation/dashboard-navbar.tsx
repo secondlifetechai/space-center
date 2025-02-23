@@ -42,7 +42,7 @@ const DashboardNavbar = ({ isPro }: Props) => {
                     </Sheet>
                     <div className="flex items-center justify-center py-4">
                         <Link href="/dashboard" className="flex items-center gap-2">
-                            <Icons.logo className="w-8 h-8 rounded-lg" />
+                            <img src="/images/favi.png" className="w-8 h-8 rounded-lg" />
                             <h2 className="font-semibold hidden md:inline-flex">
                                 Space Center
                             </h2>

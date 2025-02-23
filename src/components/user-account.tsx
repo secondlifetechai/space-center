@@ -46,7 +46,7 @@ const UserAccount = () => {
                     />
                 </div>
             </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="rounded-xl min-w-56 w-full shadow-lg shadow-neutral-500/10">
+            <DropdownMenuContent align="end" className="rounded-xl min-w-56 w-full shadow-lg shadow-neutral-500/10 border border-gray-800 dark:bg-black">
                 <div className="flex flex-col items-start text-start px-4 py-3">
                     <h5 title={firstName!} className="text-sm font-medium font-heading capitalize">
                         {firstName}

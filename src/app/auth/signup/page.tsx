@@ -114,7 +114,7 @@ const SignUpPage = () => {
 
             <div className="flex flex-col text-center gap-1">
                 <Link href="/">
-                    <Icons.logo className="w-12 h-12 mx-auto" />
+                    <img src="/images/favi.png" className="w-12 h-12 mx-auto" />
                 </Link>
                 <h1 className="text-2xl font-bold font-heading mt-2">
                     Please check your email
@@ -166,13 +166,13 @@ const SignUpPage = () => {
 
             <div className="flex flex-col text-center gap-1">
                 <Link href="/">
-                    <Icons.logo className="w-12 h-12 mx-auto" />
+                    <img src="/images/favi.png" className="w-12 h-12 mx-auto" />
                 </Link>
                 <h1 className="text-2xl font-bold font-heading mt-2">
                     Sign Up
                 </h1>
                 <p className="text-muted-foreground">
-                    Create an account to start using cura
+                    Create an account to start using Space Center
                 </p>
             </div>
 

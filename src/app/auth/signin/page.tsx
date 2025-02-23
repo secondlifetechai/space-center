@@ -74,7 +74,7 @@ const SignInPage = () => {
 
             <div className="flex flex-col text-center gap-1">
                 <Link href="/">
-                    <Icons.logo className="w-12 h-12 mx-auto" />
+                    <img src="/images/favi.png" className="w-12 h-12 mx-auto" />
                 </Link>
                 <h1 className="text-2xl font-bold font-heading mt-2">
                     Sign In
